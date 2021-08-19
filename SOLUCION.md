@@ -73,7 +73,7 @@ de la lógica creada.
 
 5. Ejecución con 100 hilos
 
-![Ejecución con 100 hilos](./imgDoc/hilos_100.PNG)
+![Ejecución con 100 hilos](./imgDoc/hilo_100.PNG)
 
 
 ### Preguntas
