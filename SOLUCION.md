@@ -48,7 +48,7 @@ se realizó una extensión de esa clase.
 ## *PARTE II.I*
 
 1. Para mejorar la implementación se utiliza la técnica de **Memoria Compartida** utilizando un **Monitor** como mecanismo de sincronización.
-![Clase Monitor](./img/lab/5.PNG)
+![Clase Monitor](./imgDoc/hilo_1.PNG)
 
 2. Se realizó una extensión de la clase Thread que se creó para el ejercicio, dado que la zona crítica es muy pequeña y se puede reutilizar gran parte
 de la lógica creada.
