@@ -20,6 +20,7 @@ public class CountThreadsMain {
         Thread n3 = new Thread(new CountThread(200,299));
         
         //n.run(A,B);
+        
         /*Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?
         con start() se puede ver que se ejecutan los hilos casi al tiempo
         con run() se imprime segun el orden de ejecucion 
@@ -28,12 +29,13 @@ public class CountThreadsMain {
         y el metodo run fue modificado por nosotros y lo ejecuta por llamado en 
         serie.
         */
-        //n1.start();
-        //n2.start();
-        //n3.start();
-        n1.run();
-        n2.run();
-        n3.run();
+        
+        n1.start();
+        n2.start();
+        n3.start();
+        //n1.run();
+        //n2.run();
+        //n3.run();
     }
     
     
